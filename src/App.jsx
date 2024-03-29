@@ -1,9 +1,12 @@
 import React from 'react'
 
+// import file components
+import Navbar from './Components/Navbar/Navbar';
+
 function App() {
   return (
     <div>
-      <h1>Hello, React Developers</h1>
+      <Navbar />
     </div>
   )
 }
