@@ -3,11 +3,14 @@ import React from 'react';
 // import css file
 import './Home.css';
 
-function Home() {
+// import components file
+import Sidebar from '../../Components/Sidebar/Sidebar';
+
+function Home({sidebar}) {
   return (
-    <div>
-        
-    </div>
+    <>
+      <Sidebar sidebar={sidebar}/>  
+    </>
   )
 }
 
