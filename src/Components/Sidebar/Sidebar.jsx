@@ -95,4 +95,4 @@ function Sidebar({sidebar}) {
   )
 }
 
-export default Sidebar;
+export default Sidebar
