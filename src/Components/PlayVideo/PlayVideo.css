@@ -4,6 +4,7 @@
 
 .play-video video{
     width: 100%;
+    border-radius: 8px;
 }
 
 .play-video h3{
