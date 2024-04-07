@@ -16,7 +16,10 @@ import thumbnail8 from '../../assets/thumbnail8.png';
 // import react-router-dom
 import { Link } from 'react-router-dom';
 
-function Feed() {
+function Feed({category}) {
+
+  
+
   return (
     <div className="feed">
 
